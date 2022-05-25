@@ -144,8 +144,8 @@ function car1_right() {
 
 function car2_up() {
 
-	if (car1_y>= 0) {
-		car1_y = car1_y - 10
+	if (car2_y>= 0) {
+		car2_y = car2_y - 10
 		uploadBackground()
 		uploadcar1()
 		uploadcar2()
@@ -155,8 +155,8 @@ function car2_up() {
 
 function car2_down() {
 
-	if(car1_y <= 500) {
-		car1_y = car1_y + 10
+	if(car2_y <= 500) {
+		car2_y = car2_y + 10
 		uploadBackground()
 		uploadcar1()
 		uploadcar2()
@@ -166,8 +166,8 @@ function car2_down() {
 
 function car2_left() {
 
-	if(car1_x >= 0) {
-		car1_x = car1_x - 10
+	if(car2_x >= 0) {
+		car2_x = car2_x - 10
 		uploadBackground()
 		uploadcar1()
 		uploadcar2()
@@ -177,8 +177,8 @@ function car2_left() {
 
 function car2_right() {
 
-	if(car1_x <= 700) {
-		car1_x = car1_x + 10
+	if(car2_x <= 700) {
+		car2_x = car2_x + 10
 		uploadBackground()
 		uploadcar1()
 		uploadcar2()
